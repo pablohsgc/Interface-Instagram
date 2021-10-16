@@ -35,6 +35,10 @@ nav img{
     padding: 10px;
 }
 
+nav a{
+    text-decoration: none;
+}
+
 #logo-tipo-insta{
     margin: 10px;
     margin-left: 15vw;
@@ -42,13 +46,13 @@ nav img{
 
 .stories{
     display: flex;
-    height: 100px;/*Largura adequada para mobile*/
-    overflow-x: auto;
-    overflow-y: none;
+    height: 120px;/*Largura adequada para mobile*/
+    overflow-x: auto; /*Rolagem lateral na área de stories*/
+    overflow-y: none;/*Bloqueia a bolagem vertical na area de stories*/
 }
 
 .storie{
-    padding: 16px;
+    padding: 10px;
 }
 
 .storie-post{
