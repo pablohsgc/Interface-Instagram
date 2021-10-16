@@ -1,0 +1,121 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html,body{
+    background-color: rgb(250,250,250);
+    width: 100%;
+    height: 100%;
+    padding-top: 2vw;
+    padding-bottom: 5vw;
+}
+
+.cabecalho{
+    position: fixed;
+    padding: 5px;
+    top: 0;
+    width: 100%;
+    background-color: rgb(255,255,255);
+    border-bottom: 1px solid rgb(224,224,224);
+    height: 3vw;
+    min-height: 42px;
+}
+
+section{
+    padding: 10px;
+}
+
+nav{
+    float: right;
+    margin: 0 15vw;
+}
+
+nav img{
+    padding: 10px;
+}
+
+#logo-tipo-insta{
+    margin: 10px;
+}
+
+.stories{
+    display: flex;
+    height: 100px;
+}
+
+.storie{
+    padding: 16px;
+}
+
+.storie-post{
+    padding: 16px;
+    display: flex;
+}
+
+.nome-post{
+    font-family: "Segoe UI", Roboto;
+    font-size: 14px;
+    font-weight: 600;  
+    margin: 1.4vw 1.5vw;
+}
+
+.cabecalho-post{
+    height: 7vw;
+    min-height: 90px;
+    background-color: rgb(255,255,255);
+}
+
+.notifi-storie{
+    width: 58px;
+    height: 58px;
+    border: 2px solid rgb(217,45,122);
+    border-radius: 100%;
+}
+
+.img-storie{
+    margin: 1px;
+    flex-direction: row;
+    width: 56px;
+    height: 56px;
+    background-color: black;
+    border-radius: 100%;
+}
+
+.nome-storie{
+    font-family: "Segoe UI", Roboto;
+    font-size: 12px;
+}
+
+.foto{
+    background-color: black;
+    border-radius: 100%;
+    padding: 10px;
+    position: absolute;
+    margin: 8px;
+}
+
+article{
+    min-height: 5vw;
+    margin: 24px;
+    margin-left: 15vw; /*Para ficar igual a do instagram*/
+    margin-right: 15vw;
+    background-color: rgb(255,255,255);
+    border: 1px solid rgb(224,224,224);
+}
+
+.foto-post{
+    height: 35vw;
+    background-color: aquamarine;
+    width: 100%;
+}
+
+footer{
+    margin-top: 3vw;
+    height: 3vw;
+    width: 100%;
+    background-color: rgb(255,255,255);
+    position: fixed;
+    bottom: 0;
+    border-top: 1px solid rgb(224,224,224);
+}
