@@ -42,7 +42,7 @@ nav img{
 
 .stories{
     display: flex;
-    height: 100px;
+    height: 100px;/*Largura adequada para mobile*/
     overflow-x: auto;
     overflow-y: none;
 }
